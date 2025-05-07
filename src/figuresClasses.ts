@@ -92,5 +92,5 @@ export class Rectangle implements Figure {
 }
 
 export function getInfo(figure: Triangle | Circle | Rectangle): string {
-  return `A ${figure.color} ${figure.shape} - ${figure.getArea}`;
+  return `A ${figure.color} ${figure.shape} - ${figure.getArea()}`;
 }
